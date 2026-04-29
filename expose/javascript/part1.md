@@ -6,7 +6,7 @@
 
 2. Line 13 prints `final result: 20`. `var` is function-scoped, so `result` is still accessible after the `if` block ends.
 
-3. You should avoid `var` because it is function-scoped rather than block-scoped, which can cause variables to be accessible in places you do not expect. It is also hoisted, which can make bugs harder to notice and understand.
+3. You should avoid `var` because it is function-scoped rather than block-scoped, which can cause variables to be accessible in places you don't expect. It is also hoisted, which can make bugs harder to notice and understand.
 
 ## let declaration
 
